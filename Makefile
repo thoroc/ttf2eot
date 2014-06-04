@@ -1,4 +1,6 @@
-install: ttf2eot
+build: ttf2eot
+
+install: build
 
 	cp ttf2eot /usr/bin
 

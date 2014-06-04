@@ -31,6 +31,11 @@ To build:
     $ make
 ```
 
+To install:
+```
+    $ make install
+```
+
 Usage:
 ```
     $ ./ttf2eot < input.ttf > output.eot

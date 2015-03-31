@@ -15,7 +15,6 @@ typedef unsigned char uint8_t;
 #endif
 
 #if defined(_MSC_VER) || defined(__MINGW32__)
-# include <io.h>
 # include <fcntl.h>
 # ifndef _O_BINARY
 #  define _O_BINARY 0x8000
